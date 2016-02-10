@@ -14,6 +14,7 @@
 		E10A51BB1C6A9BAC006F2C58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10A51B91C6A9BAC006F2C58 /* LaunchScreen.storyboard */; };
 		E10A51C61C6A9BAC006F2C58 /* Maps_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A51C51C6A9BAC006F2C58 /* Maps_IOSTests.swift */; };
 		E10A51D11C6A9BAC006F2C58 /* Maps_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A51D01C6A9BAC006F2C58 /* Maps_IOSUITests.swift */; };
+		E10A51DF1C6AA8C2006F2C58 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E10A51DE1C6AA8C2006F2C58 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E10A51CC1C6A9BAC006F2C58 /* Maps_IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Maps_IOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E10A51D01C6A9BAC006F2C58 /* Maps_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maps_IOSUITests.swift; sourceTree = "<group>"; };
 		E10A51D21C6A9BAC006F2C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E10A51DE1C6AA8C2006F2C58 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E10A51DF1C6AA8C2006F2C58 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		E10A51A41C6A9BAC006F2C58 = {
 			isa = PBXGroup;
 			children = (
+				E10A51DE1C6AA8C2006F2C58 /* CoreLocation.framework */,
 				E10A51AF1C6A9BAC006F2C58 /* Maps_IOS */,
 				E10A51C41C6A9BAC006F2C58 /* Maps_IOSTests */,
 				E10A51CF1C6A9BAC006F2C58 /* Maps_IOSUITests */,
